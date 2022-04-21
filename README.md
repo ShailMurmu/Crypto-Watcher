@@ -3,3 +3,5 @@
 
 
 Enjoy !!
+
+Link for the applicaion: https://crypto-note.netlify.app/

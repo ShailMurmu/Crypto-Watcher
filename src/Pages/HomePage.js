@@ -5,6 +5,7 @@ import ErrorFallback from "../components/ErrorBoundary";
 import { CryptoState } from "../CryptoContext";
 // import CoinsTable from "../components/CoinsTable";
 const CoinsTable = React.lazy(() => import("../components/CoinsTable"));
+const AdditionLink = React.lazy(() => import("../components/AdditionLink"));
 
 const Homepage = () => {
   const { loading } = CryptoState();
@@ -12,6 +13,7 @@ const Homepage = () => {
   return (
     <div>
       <Banner />
+      <AdditionLink/>
       <ErrorBoundary
         FallbackComponent={ErrorFallback}
         onReset={() => {

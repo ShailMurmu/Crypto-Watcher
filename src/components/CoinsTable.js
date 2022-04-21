@@ -179,7 +179,7 @@ function CoinsTable() {
         <Pagination
           count={parseInt((handleSearch()?.length / 10).toFixed(0))}
           style={{
-            padding: 20,
+            padding: 5,
             width: "100%",
             display: "flex",
             justifyContent: "center",

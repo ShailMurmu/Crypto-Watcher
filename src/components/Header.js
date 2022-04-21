@@ -53,6 +53,7 @@ function Header() {
             >
               Crypto Watcher
             </Typography>
+            {/* <Button variant="outlined" style={{ width: "auto", height: 40, margin: 10 }} onClick={() => {}}>Exchange Rate</Button> */}
             <Select
               variant="outlined"
               labelId="demo-simple-select-label"
